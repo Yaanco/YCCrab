@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02DF8C3F21202CBD515786F4 /* Pods_YCCrabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518467E3F71C55E73276BE2A /* Pods_YCCrabTests.framework */; };
+		7D5ECE26765457013F947690 /* Pods_YCCrab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78733A4D03C65D7D4EE47A08 /* Pods_YCCrab.framework */; };
 		A1B3547325FC4AED0015F2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547225FC4AED0015F2EE /* AppDelegate.swift */; };
 		A1B3547525FC4AED0015F2EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547425FC4AED0015F2EE /* SceneDelegate.swift */; };
 		A1B3547725FC4AED0015F2EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547625FC4AED0015F2EE /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		A1B3548225FC4AF00015F2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B3548025FC4AF00015F2EE /* LaunchScreen.storyboard */; };
 		A1B3548D25FC4AF00015F2EE /* YCCrabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3548C25FC4AF00015F2EE /* YCCrabTests.swift */; };
 		A1B3549825FC4AF00015F2EE /* YCCrabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3549725FC4AF00015F2EE /* YCCrabUITests.swift */; };
+		A1B354A625FC541C0015F2EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A1B354A525FC541C0015F2EE /* .gitignore */; };
+		CB040ABD67E49A288BCD50B0 /* Pods_YCCrab_YCCrabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628CB5FB466763AFFA9957C /* Pods_YCCrab_YCCrabUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B654BF56C6DAFD60E14C2CB /* Pods-YCCrab-YCCrabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrab-YCCrabUITests.release.xcconfig"; path = "Target Support Files/Pods-YCCrab-YCCrabUITests/Pods-YCCrab-YCCrabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1628CB5FB466763AFFA9957C /* Pods_YCCrab_YCCrabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCCrab_YCCrabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C95C04984A9AA37530B03F6 /* Pods-YCCrab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrab.release.xcconfig"; path = "Target Support Files/Pods-YCCrab/Pods-YCCrab.release.xcconfig"; sourceTree = "<group>"; };
+		518467E3F71C55E73276BE2A /* Pods_YCCrabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCCrabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78733A4D03C65D7D4EE47A08 /* Pods_YCCrab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCCrab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B911A727AF0EE84B9930E7 /* Pods-YCCrab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrab.debug.xcconfig"; path = "Target Support Files/Pods-YCCrab/Pods-YCCrab.debug.xcconfig"; sourceTree = "<group>"; };
 		A1B3546F25FC4AED0015F2EE /* YCCrab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCCrab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B3547225FC4AED0015F2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B3547425FC4AED0015F2EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,10 @@
 		A1B3549325FC4AF00015F2EE /* YCCrabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCCrabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B3549725FC4AF00015F2EE /* YCCrabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCCrabUITests.swift; sourceTree = "<group>"; };
 		A1B3549925FC4AF00015F2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B354A525FC541C0015F2EE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DD31F69F6302197427263BD1 /* Pods-YCCrabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrabTests.release.xcconfig"; path = "Target Support Files/Pods-YCCrabTests/Pods-YCCrabTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3696655E05CFE029DFA57FA /* Pods-YCCrab-YCCrabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrab-YCCrabUITests.debug.xcconfig"; path = "Target Support Files/Pods-YCCrab-YCCrabUITests/Pods-YCCrab-YCCrabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8955380AA5E853E962EABD /* Pods-YCCrabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrabTests.debug.xcconfig"; path = "Target Support Files/Pods-YCCrabTests/Pods-YCCrabTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D5ECE26765457013F947690 /* Pods_YCCrab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DF8C3F21202CBD515786F4 /* Pods_YCCrabTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB040ABD67E49A288BCD50B0 /* Pods_YCCrab_YCCrabUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CE251168FF8EF74E8D4A9D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B911A727AF0EE84B9930E7 /* Pods-YCCrab.debug.xcconfig */,
+				3C95C04984A9AA37530B03F6 /* Pods-YCCrab.release.xcconfig */,
+				E3696655E05CFE029DFA57FA /* Pods-YCCrab-YCCrabUITests.debug.xcconfig */,
+				0B654BF56C6DAFD60E14C2CB /* Pods-YCCrab-YCCrabUITests.release.xcconfig */,
+				FF8955380AA5E853E962EABD /* Pods-YCCrabTests.debug.xcconfig */,
+				DD31F69F6302197427263BD1 /* Pods-YCCrabTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A1B3546625FC4AED0015F2EE = {
 			isa = PBXGroup;
 			children = (
+				A1B354A525FC541C0015F2EE /* .gitignore */,
 				A1B3547125FC4AED0015F2EE /* YCCrab */,
 				A1B3548B25FC4AF00015F2EE /* YCCrabTests */,
 				A1B3549625FC4AF00015F2EE /* YCCrabUITests */,
 				A1B3547025FC4AED0015F2EE /* Products */,
+				8CE251168FF8EF74E8D4A9D4 /* Pods */,
+				C601DBC751D650DEE1771612 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +165,16 @@
 			path = YCCrabUITests;
 			sourceTree = "<group>";
 		};
+		C601DBC751D650DEE1771612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78733A4D03C65D7D4EE47A08 /* Pods_YCCrab.framework */,
+				1628CB5FB466763AFFA9957C /* Pods_YCCrab_YCCrabUITests.framework */,
+				518467E3F71C55E73276BE2A /* Pods_YCCrabTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B3549C25FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrab" */;
 			buildPhases = (
+				0D08C18D75A88E534B514B5C /* [CP] Check Pods Manifest.lock */,
 				A1B3546B25FC4AED0015F2EE /* Sources */,
 				A1B3546C25FC4AED0015F2EE /* Frameworks */,
 				A1B3546D25FC4AED0015F2EE /* Resources */,
+				CCBD986286906F45DF33D04B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B3549F25FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrabTests" */;
 			buildPhases = (
+				A5D3B0056239EA503BA8703A /* [CP] Check Pods Manifest.lock */,
 				A1B3548425FC4AF00015F2EE /* Sources */,
 				A1B3548525FC4AF00015F2EE /* Frameworks */,
 				A1B3548625FC4AF00015F2EE /* Resources */,
@@ -173,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B354A225FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrabUITests" */;
 			buildPhases = (
+				2415E74B57A27E2F0377ED64 /* [CP] Check Pods Manifest.lock */,
 				A1B3548F25FC4AF00015F2EE /* Sources */,
 				A1B3549025FC4AF00015F2EE /* Frameworks */,
 				A1B3549125FC4AF00015F2EE /* Resources */,
+				715A9FFBCEE5BD1A8BF65D20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B354A625FC541C0015F2EE /* .gitignore in Resources */,
 				A1B3548225FC4AF00015F2EE /* LaunchScreen.storyboard in Resources */,
 				A1B3547F25FC4AF00015F2EE /* Assets.xcassets in Resources */,
 				A1B3547A25FC4AED0015F2EE /* Main.storyboard in Resources */,
@@ -255,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D08C18D75A88E534B514B5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCCrab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2415E74B57A27E2F0377ED64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCCrab-YCCrabUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		715A9FFBCEE5BD1A8BF65D20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCCrab-YCCrabUITests/Pods-YCCrab-YCCrabUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCCrab-YCCrabUITests/Pods-YCCrab-YCCrabUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YCCrab-YCCrabUITests/Pods-YCCrab-YCCrabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D3B0056239EA503BA8703A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCCrabTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBD986286906F45DF33D04B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCCrab/Pods-YCCrab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCCrab/Pods-YCCrab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YCCrab/Pods-YCCrab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1B3546B25FC4AED0015F2EE /* Sources */ = {
@@ -437,6 +590,7 @@
 		};
 		A1B3549D25FC4AF00015F2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B911A727AF0EE84B9930E7 /* Pods-YCCrab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +610,7 @@
 		};
 		A1B3549E25FC4AF00015F2EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C95C04984A9AA37530B03F6 /* Pods-YCCrab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +630,7 @@
 		};
 		A1B354A025FC4AF00015F2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8955380AA5E853E962EABD /* Pods-YCCrabTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +653,7 @@
 		};
 		A1B354A125FC4AF00015F2EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD31F69F6302197427263BD1 /* Pods-YCCrabTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +676,7 @@
 		};
 		A1B354A325FC4AF00015F2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3696655E05CFE029DFA57FA /* Pods-YCCrab-YCCrabUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +697,7 @@
 		};
 		A1B354A425FC4AF00015F2EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B654BF56C6DAFD60E14C2CB /* Pods-YCCrab-YCCrabUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

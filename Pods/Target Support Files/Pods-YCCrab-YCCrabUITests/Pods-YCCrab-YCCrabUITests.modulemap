@@ -1,0 +1,6 @@
+framework module Pods_YCCrab_YCCrabUITests {
+  umbrella header "Pods-YCCrab-YCCrabUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
