@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B3547325FC4AED0015F2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547225FC4AED0015F2EE /* AppDelegate.swift */; };
+		A1B3547525FC4AED0015F2EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547425FC4AED0015F2EE /* SceneDelegate.swift */; };
+		A1B3547725FC4AED0015F2EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547625FC4AED0015F2EE /* ViewController.swift */; };
+		A1B3547A25FC4AED0015F2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B3547825FC4AED0015F2EE /* Main.storyboard */; };
+		A1B3547D25FC4AED0015F2EE /* YCCrab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547B25FC4AED0015F2EE /* YCCrab.xcdatamodeld */; };
+		A1B3547F25FC4AF00015F2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B3547E25FC4AF00015F2EE /* Assets.xcassets */; };
+		A1B3548225FC4AF00015F2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B3548025FC4AF00015F2EE /* LaunchScreen.storyboard */; };
+		A1B3548D25FC4AF00015F2EE /* YCCrabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3548C25FC4AF00015F2EE /* YCCrabTests.swift */; };
+		A1B3549825FC4AF00015F2EE /* YCCrabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3549725FC4AF00015F2EE /* YCCrabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B3548925FC4AF00015F2EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B3546725FC4AED0015F2EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B3546E25FC4AED0015F2EE;
+			remoteInfo = YCCrab;
+		};
+		A1B3549425FC4AF00015F2EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B3546725FC4AED0015F2EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B3546E25FC4AED0015F2EE;
+			remoteInfo = YCCrab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1B3546F25FC4AED0015F2EE /* YCCrab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCCrab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3547225FC4AED0015F2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B3547425FC4AED0015F2EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1B3547625FC4AED0015F2EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1B3547925FC4AED0015F2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B3547C25FC4AED0015F2EE /* YCCrab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YCCrab.xcdatamodel; sourceTree = "<group>"; };
+		A1B3547E25FC4AF00015F2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B3548125FC4AF00015F2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B3548325FC4AF00015F2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B3548825FC4AF00015F2EE /* YCCrabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCCrabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3548C25FC4AF00015F2EE /* YCCrabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCCrabTests.swift; sourceTree = "<group>"; };
+		A1B3548E25FC4AF00015F2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B3549325FC4AF00015F2EE /* YCCrabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCCrabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3549725FC4AF00015F2EE /* YCCrabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCCrabUITests.swift; sourceTree = "<group>"; };
+		A1B3549925FC4AF00015F2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B3546C25FC4AED0015F2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3548525FC4AF00015F2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3549025FC4AF00015F2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B3546625FC4AED0015F2EE = {
+			isa = PBXGroup;
+			children = (
+				A1B3547125FC4AED0015F2EE /* YCCrab */,
+				A1B3548B25FC4AF00015F2EE /* YCCrabTests */,
+				A1B3549625FC4AF00015F2EE /* YCCrabUITests */,
+				A1B3547025FC4AED0015F2EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B3547025FC4AED0015F2EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3546F25FC4AED0015F2EE /* YCCrab.app */,
+				A1B3548825FC4AF00015F2EE /* YCCrabTests.xctest */,
+				A1B3549325FC4AF00015F2EE /* YCCrabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B3547125FC4AED0015F2EE /* YCCrab */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3547225FC4AED0015F2EE /* AppDelegate.swift */,
+				A1B3547425FC4AED0015F2EE /* SceneDelegate.swift */,
+				A1B3547625FC4AED0015F2EE /* ViewController.swift */,
+				A1B3547825FC4AED0015F2EE /* Main.storyboard */,
+				A1B3547E25FC4AF00015F2EE /* Assets.xcassets */,
+				A1B3548025FC4AF00015F2EE /* LaunchScreen.storyboard */,
+				A1B3548325FC4AF00015F2EE /* Info.plist */,
+				A1B3547B25FC4AED0015F2EE /* YCCrab.xcdatamodeld */,
+			);
+			path = YCCrab;
+			sourceTree = "<group>";
+		};
+		A1B3548B25FC4AF00015F2EE /* YCCrabTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3548C25FC4AF00015F2EE /* YCCrabTests.swift */,
+				A1B3548E25FC4AF00015F2EE /* Info.plist */,
+			);
+			path = YCCrabTests;
+			sourceTree = "<group>";
+		};
+		A1B3549625FC4AF00015F2EE /* YCCrabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3549725FC4AF00015F2EE /* YCCrabUITests.swift */,
+				A1B3549925FC4AF00015F2EE /* Info.plist */,
+			);
+			path = YCCrabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B3546E25FC4AED0015F2EE /* YCCrab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B3549C25FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrab" */;
+			buildPhases = (
+				A1B3546B25FC4AED0015F2EE /* Sources */,
+				A1B3546C25FC4AED0015F2EE /* Frameworks */,
+				A1B3546D25FC4AED0015F2EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCCrab;
+			productName = YCCrab;
+			productReference = A1B3546F25FC4AED0015F2EE /* YCCrab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B3548725FC4AF00015F2EE /* YCCrabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B3549F25FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrabTests" */;
+			buildPhases = (
+				A1B3548425FC4AF00015F2EE /* Sources */,
+				A1B3548525FC4AF00015F2EE /* Frameworks */,
+				A1B3548625FC4AF00015F2EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B3548A25FC4AF00015F2EE /* PBXTargetDependency */,
+			);
+			name = YCCrabTests;
+			productName = YCCrabTests;
+			productReference = A1B3548825FC4AF00015F2EE /* YCCrabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1B3549225FC4AF00015F2EE /* YCCrabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B354A225FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrabUITests" */;
+			buildPhases = (
+				A1B3548F25FC4AF00015F2EE /* Sources */,
+				A1B3549025FC4AF00015F2EE /* Frameworks */,
+				A1B3549125FC4AF00015F2EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B3549525FC4AF00015F2EE /* PBXTargetDependency */,
+			);
+			name = YCCrabUITests;
+			productName = YCCrabUITests;
+			productReference = A1B3549325FC4AF00015F2EE /* YCCrabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B3546725FC4AED0015F2EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A1B3546E25FC4AED0015F2EE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A1B3548725FC4AF00015F2EE = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A1B3546E25FC4AED0015F2EE;
+					};
+					A1B3549225FC4AF00015F2EE = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A1B3546E25FC4AED0015F2EE;
+					};
+				};
+			};
+			buildConfigurationList = A1B3546A25FC4AED0015F2EE /* Build configuration list for PBXProject "YCCrab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B3546625FC4AED0015F2EE;
+			productRefGroup = A1B3547025FC4AED0015F2EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B3546E25FC4AED0015F2EE /* YCCrab */,
+				A1B3548725FC4AF00015F2EE /* YCCrabTests */,
+				A1B3549225FC4AF00015F2EE /* YCCrabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B3546D25FC4AED0015F2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3548225FC4AF00015F2EE /* LaunchScreen.storyboard in Resources */,
+				A1B3547F25FC4AF00015F2EE /* Assets.xcassets in Resources */,
+				A1B3547A25FC4AED0015F2EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3548625FC4AF00015F2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3549125FC4AF00015F2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B3546B25FC4AED0015F2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3547725FC4AED0015F2EE /* ViewController.swift in Sources */,
+				A1B3547325FC4AED0015F2EE /* AppDelegate.swift in Sources */,
+				A1B3547525FC4AED0015F2EE /* SceneDelegate.swift in Sources */,
+				A1B3547D25FC4AED0015F2EE /* YCCrab.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3548425FC4AF00015F2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3548D25FC4AF00015F2EE /* YCCrabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B3548F25FC4AF00015F2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B3549825FC4AF00015F2EE /* YCCrabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B3548A25FC4AF00015F2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B3546E25FC4AED0015F2EE /* YCCrab */;
+			targetProxy = A1B3548925FC4AF00015F2EE /* PBXContainerItemProxy */;
+		};
+		A1B3549525FC4AF00015F2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B3546E25FC4AED0015F2EE /* YCCrab */;
+			targetProxy = A1B3549425FC4AF00015F2EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1B3547825FC4AED0015F2EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B3547925FC4AED0015F2EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1B3548025FC4AF00015F2EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B3548125FC4AF00015F2EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1B3549A25FC4AF00015F2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B3549B25FC4AF00015F2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B3549D25FC4AF00015F2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y99PCF63Z;
+				INFOPLIST_FILE = YCCrab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaanco.YCCrab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1B3549E25FC4AF00015F2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y99PCF63Z;
+				INFOPLIST_FILE = YCCrab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaanco.YCCrab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A1B354A025FC4AF00015F2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y99PCF63Z;
+				INFOPLIST_FILE = YCCrabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaanco.YCCrabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCCrab.app/YCCrab";
+			};
+			name = Debug;
+		};
+		A1B354A125FC4AF00015F2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y99PCF63Z;
+				INFOPLIST_FILE = YCCrabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaanco.YCCrabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCCrab.app/YCCrab";
+			};
+			name = Release;
+		};
+		A1B354A325FC4AF00015F2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y99PCF63Z;
+				INFOPLIST_FILE = YCCrabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaanco.YCCrabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YCCrab;
+			};
+			name = Debug;
+		};
+		A1B354A425FC4AF00015F2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y99PCF63Z;
+				INFOPLIST_FILE = YCCrabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaanco.YCCrabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YCCrab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B3546A25FC4AED0015F2EE /* Build configuration list for PBXProject "YCCrab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B3549A25FC4AF00015F2EE /* Debug */,
+				A1B3549B25FC4AF00015F2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B3549C25FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B3549D25FC4AF00015F2EE /* Debug */,
+				A1B3549E25FC4AF00015F2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B3549F25FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B354A025FC4AF00015F2EE /* Debug */,
+				A1B354A125FC4AF00015F2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B354A225FC4AF00015F2EE /* Build configuration list for PBXNativeTarget "YCCrabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B354A325FC4AF00015F2EE /* Debug */,
+				A1B354A425FC4AF00015F2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1B3547B25FC4AED0015F2EE /* YCCrab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1B3547C25FC4AED0015F2EE /* YCCrab.xcdatamodel */,
+			);
+			currentVersion = A1B3547C25FC4AED0015F2EE /* YCCrab.xcdatamodel */;
+			path = YCCrab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1B3546725FC4AED0015F2EE /* Project object */;
+}
