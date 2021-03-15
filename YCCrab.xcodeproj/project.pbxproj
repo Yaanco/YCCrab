@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,14 +11,13 @@
 		7D5ECE26765457013F947690 /* Pods_YCCrab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78733A4D03C65D7D4EE47A08 /* Pods_YCCrab.framework */; };
 		A1B3547325FC4AED0015F2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547225FC4AED0015F2EE /* AppDelegate.swift */; };
 		A1B3547525FC4AED0015F2EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547425FC4AED0015F2EE /* SceneDelegate.swift */; };
-		A1B3547725FC4AED0015F2EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547625FC4AED0015F2EE /* ViewController.swift */; };
-		A1B3547A25FC4AED0015F2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B3547825FC4AED0015F2EE /* Main.storyboard */; };
 		A1B3547D25FC4AED0015F2EE /* YCCrab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B3547B25FC4AED0015F2EE /* YCCrab.xcdatamodeld */; };
 		A1B3547F25FC4AF00015F2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B3547E25FC4AF00015F2EE /* Assets.xcassets */; };
 		A1B3548225FC4AF00015F2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B3548025FC4AF00015F2EE /* LaunchScreen.storyboard */; };
 		A1B3548D25FC4AF00015F2EE /* YCCrabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3548C25FC4AF00015F2EE /* YCCrabTests.swift */; };
 		A1B3549825FC4AF00015F2EE /* YCCrabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3549725FC4AF00015F2EE /* YCCrabUITests.swift */; };
 		A1B354A625FC541C0015F2EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A1B354A525FC541C0015F2EE /* .gitignore */; };
+		A1B354A825FC5F390015F2EE /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B354A725FC5F390015F2EE /* TabBarVC.swift */; };
 		CB040ABD67E49A288BCD50B0 /* Pods_YCCrab_YCCrabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628CB5FB466763AFFA9957C /* Pods_YCCrab_YCCrabUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +48,6 @@
 		A1B3546F25FC4AED0015F2EE /* YCCrab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCCrab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B3547225FC4AED0015F2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B3547425FC4AED0015F2EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1B3547625FC4AED0015F2EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1B3547925FC4AED0015F2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1B3547C25FC4AED0015F2EE /* YCCrab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YCCrab.xcdatamodel; sourceTree = "<group>"; };
 		A1B3547E25FC4AF00015F2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B3548125FC4AF00015F2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +59,7 @@
 		A1B3549725FC4AF00015F2EE /* YCCrabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCCrabUITests.swift; sourceTree = "<group>"; };
 		A1B3549925FC4AF00015F2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B354A525FC541C0015F2EE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A1B354A725FC5F390015F2EE /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		DD31F69F6302197427263BD1 /* Pods-YCCrabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrabTests.release.xcconfig"; path = "Target Support Files/Pods-YCCrabTests/Pods-YCCrabTests.release.xcconfig"; sourceTree = "<group>"; };
 		E3696655E05CFE029DFA57FA /* Pods-YCCrab-YCCrabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrab-YCCrabUITests.debug.xcconfig"; path = "Target Support Files/Pods-YCCrab-YCCrabUITests/Pods-YCCrab-YCCrabUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF8955380AA5E853E962EABD /* Pods-YCCrabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCrabTests.debug.xcconfig"; path = "Target Support Files/Pods-YCCrabTests/Pods-YCCrabTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				FF8955380AA5E853E962EABD /* Pods-YCCrabTests.debug.xcconfig */,
 				DD31F69F6302197427263BD1 /* Pods-YCCrabTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,12 +134,8 @@
 			children = (
 				A1B3547225FC4AED0015F2EE /* AppDelegate.swift */,
 				A1B3547425FC4AED0015F2EE /* SceneDelegate.swift */,
-				A1B3547625FC4AED0015F2EE /* ViewController.swift */,
-				A1B3547825FC4AED0015F2EE /* Main.storyboard */,
-				A1B3547E25FC4AF00015F2EE /* Assets.xcassets */,
-				A1B3548025FC4AF00015F2EE /* LaunchScreen.storyboard */,
-				A1B3548325FC4AF00015F2EE /* Info.plist */,
-				A1B3547B25FC4AED0015F2EE /* YCCrab.xcdatamodeld */,
+				A1B354A725FC5F390015F2EE /* TabBarVC.swift */,
+				A1B354A925FC622B0015F2EE /* Resource */,
 			);
 			path = YCCrab;
 			sourceTree = "<group>";
@@ -163,6 +156,17 @@
 				A1B3549925FC4AF00015F2EE /* Info.plist */,
 			);
 			path = YCCrabUITests;
+			sourceTree = "<group>";
+		};
+		A1B354A925FC622B0015F2EE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3547E25FC4AF00015F2EE /* Assets.xcassets */,
+				A1B3548025FC4AF00015F2EE /* LaunchScreen.storyboard */,
+				A1B3548325FC4AF00015F2EE /* Info.plist */,
+				A1B3547B25FC4AED0015F2EE /* YCCrab.xcdatamodeld */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		C601DBC751D650DEE1771612 /* Frameworks */ = {
@@ -286,7 +290,6 @@
 				A1B354A625FC541C0015F2EE /* .gitignore in Resources */,
 				A1B3548225FC4AF00015F2EE /* LaunchScreen.storyboard in Resources */,
 				A1B3547F25FC4AF00015F2EE /* Assets.xcassets in Resources */,
-				A1B3547A25FC4AED0015F2EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +417,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B3547725FC4AED0015F2EE /* ViewController.swift in Sources */,
 				A1B3547325FC4AED0015F2EE /* AppDelegate.swift in Sources */,
 				A1B3547525FC4AED0015F2EE /* SceneDelegate.swift in Sources */,
+				A1B354A825FC5F390015F2EE /* TabBarVC.swift in Sources */,
 				A1B3547D25FC4AED0015F2EE /* YCCrab.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,14 +456,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A1B3547825FC4AED0015F2EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1B3547925FC4AED0015F2EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1B3548025FC4AF00015F2EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -523,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -578,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -596,7 +591,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Y99PCF63Z;
-				INFOPLIST_FILE = YCCrab/Info.plist;
+				INFOPLIST_FILE = YCCrab/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,7 +612,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Y99PCF63Z;
-				INFOPLIST_FILE = YCCrab/Info.plist;
+				INFOPLIST_FILE = YCCrab/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
